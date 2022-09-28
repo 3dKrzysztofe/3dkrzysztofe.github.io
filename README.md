@@ -1,1 +1,0 @@
-# 3dkrzysztofe.github.io
