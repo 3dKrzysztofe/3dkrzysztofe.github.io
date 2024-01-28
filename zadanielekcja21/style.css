@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lexend', sans-serif;
+}
+header, footer{
+    background-color: #ff8fdd;
+}
+header{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    width:25%;
+    background-color: #ffa6e4;
+    height:700px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    background-color: #fff;
+    height:700px;
+}
+footer{
+    height: 150px;
+    text-align: right;
+    line-height: 150px;
+    font-size: 27px;
+}
