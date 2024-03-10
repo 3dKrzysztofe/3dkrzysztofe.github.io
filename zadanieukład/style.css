@@ -1,0 +1,40 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+}
+header{
+    background-color:silver;
+    height: 50px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    background-color: aqua;
+    height: 600px;
+    width: 30%;
+}
+main {
+    background-color:green;
+    height: 600px;
+    width: 40%;
+}
+aside {
+    background-color:teal;
+    height:600px;
+    width:30%;
+}
+footer {
+    background-color:blue;
+}
+header, nav, main, aside, footer{
+    padding-left: 25px;
+}
