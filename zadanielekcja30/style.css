@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15%;
+    background-color: bisque;
+}
+.snail>img{
+    transform: scaleY(0.5);
+}
+.fishes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.fishBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 3em;
+    border: 5px brown outset;
+    text-align: center;
+}
+.fishBox:hover{
+    background-color: darkorchid;
+    cursor: pointer;
+}
+a.fishLink{
+    text-decoration: none;
+    color: lightgreen;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+a.fishLink:visited{
+    color: darkred;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+}
+.lists, .fishImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.lists{
+    width: 30%;
+    background-color: lightgray;
+    font-size: 2em;
+}
+ul{
+    margin-left: 1.5em;
+}
+.listSnails{
+    color: red;
+}
+.listFish{
+    list-style-type: square;
+    color: cornflowerblue;
+}
+.fishImg{
+    width: 70%;
+    overflow: hidden;
+}
+.fishImg>img{
+    transform: scale(200%);
+}
+footer{
+    height: 15%;
+    background-color: lightgreen;
+    line-height: 15vh;
+    text-align: right;
+    font-size: 2em;
+    font-weight: bold;
+}
+footer>p>span{
+    margin-right: 1em;
+}
